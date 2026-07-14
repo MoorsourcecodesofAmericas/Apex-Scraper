@@ -45,19 +45,19 @@ The key signal: detection is driven by **automation-protocol fingerprinting**, n
 
 ## Project Structure
 
-This repo is OpenClaw-native — it lives at `projects/Apex-Scraper/` in the workspace.
+This repo is **OpenClaw-native** — it lives at `projects/Apex-Scraper/` in the workspace and follows OpenClaw's identity/personality/memory pattern.
 
 ```
-projects/Apex-Scraper/          ← This repo
-├── README.md                   ← You're reading it
+projects/Apex-Scraper/              ← This repo
+├── README.md                       ← You're reading it
 ├── .gitignore
-├── CLAUDE.md                   ← Agent identity
-├── CONTEXT.md                  ← Scope & red team intel
-├── RULES.md                    ← Boundaries & constraints
-├── _index.md                   ← Project tracker
-└── notes.md                    ← Working log
+├── IDENTITY.md                     ← Agent identity (who Apex is)
+├── SOUL.md                         ← Personality & boundaries (how Apex operates)
+├── MEMORY.md                       ← Durable facts, arsenal, intel
+├── _index.md                       ← Project tracker
+└── notes.md                        ← Working log
 
-skills/apex-scraper/SKILL.md    ← Full skill definition (separate, indexed)
+skills/apex-scraper/SKILL.md        ← Full 5-tier skill definition (OpenClaw-native skill path)
 ```
 
 ## Quick Start
