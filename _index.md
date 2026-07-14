@@ -7,30 +7,24 @@ tags: [apex-scraper, scraping, project-index]
 
 # Apex Scraper — Index
 
-## Files
+## OpenClaw-Native Project Files
 
 | File | Purpose |
 |------|---------|
-| [CLAUDE.md](CLAUDE.md) | Agent identity — who Apex Scraper is |
-| [CONTEXT.md](CONTEXT.md) | Background — scope, definitions, red team intel |
-| [RULES.md](RULES.md) | Boundaries — always do / never do |
+| [IDENTITY.md](IDENTITY.md) | Agent identity — who Apex Scraper is |
+| [SOUL.md](SOUL.md) | Personality — operating principles and boundaries |
+| [MEMORY.md](MEMORY.md) | Durable facts — knowledge base and intel |
+| [README.md](README.md) | Project overview, status, next actions |
 | [notes.md](notes.md) | Working notes and research |
-| [skills/apex-scraper/SKILL.md](../skills/apex-scraper/SKILL.md) | The full skill definition |
+| [SKILL.md](SKILL.md) | Skill reference (links to skills/apex-scraper/SKILL.md) |
+| [skills/apex-scraper/SKILL.md](../skills/apex-scraper/SKILL.md) | The authoritative skill definition |
 
 ## Status: Building
 
 - [x] Skill proposal created (pending approval, ID: apex-scraper-20260714-b189ff7389)
 - [x] Red team intelligence gathered
-- [x] Project structure established
-- [x] GitHub repo created — [MoorsourcecodesofAmericas/Apex-Scraper](https://github.com/MoorsourcecodesofAmericas/Apex-Scraper)
+- [x] Project structure — OpenClaw-native (IDENTITY/SOUL/MEMORY)
+- [x] GitHub repo established — [MoorsourcecodesofAmericas/Apex-Scraper](https://github.com/MoorsourcecodesofAmericas/Apex-Scraper)
 - [ ] Skill applied/approved
 - [ ] Test A — books.toscrape.com
 - [ ] Test B — Indeed.com job listings
-- [ ] Full production readiness
-
-## Key Milestones
-
-1. **Proposal created** — 2026-07-14
-2. **Intel gathered** — Anti-detect browser benchmark, red team stack 2026
-3. **GitHub repo established** — OpenClaw-native structure at `projects/Apex-Scraper/`
-4. **Test validation** — (next)
